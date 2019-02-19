@@ -1,0 +1,31 @@
+{
+   "data": {
+      "AllUnitFlag": null,
+      "BuySell": null,
+      "BuySellType": null,
+      "ClientCode": null,
+      "DPTxn": null,
+      "EUIN": null,
+      "EUINVal": null,
+      "FolioNo": null,
+      "FromSchemeCd": null,
+      "IPAdd": null,
+      "KYCStatus": null,
+      "MemberId": null,
+      "MinRedeem": null,
+      "OrderId": null,
+      "OrderVal": null,
+      "Param1": null,
+      "Param2": null,
+      "Param3": null,
+      "PassKey": null,
+      "Password": null,
+      "Remarks": null,
+      "SubBrCode": null,
+      "SwitchUnits": null,
+      "ToSchemeCd": null,
+      "TransCode": null,
+      "TransNo": null,
+      "UserID": null
+   }
+}
