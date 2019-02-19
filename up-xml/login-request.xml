@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ns="http://bsestarmfdemo.bseindia.com/2016/01/">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmfdemo.bseindia.com/2016/01/IMFUploadService/getPassword</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFUploadService/MFUploadService.svc/Secure</wsa:To>
+      </soap:Header>
+   <soap:Body>
+      <ns:getPassword>
+         <ns:UserId>MANISH1</ns:UserId>
+         <ns:MemberId>PULSLAB1</ns:MemberId>
+         <ns:Password>@123456</ns:Password>
+         <ns:PassKey>Pulselab</ns:PassKey>
+      </ns:getPassword>
+   </soap:Body>
+</soap:Envelope>
