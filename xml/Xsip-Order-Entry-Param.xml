@@ -1,0 +1,40 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/">
+  <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/xsipOrderEntryParam</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+     </soap:Header>
+   <soap:Body>
+      <bses:xsipOrderEntryParam>
+         <bses:TransactionCode></bses:TransactionCode>
+         <bses:UniqueRefNo></bses:UniqueRefNo>
+         <bses:SchemeCode></bses:SchemeCode>
+         <bses:MemberCode></bses:MemberCode>
+         <bses:ClientCode></bses:ClientCode>
+         <bses:UserId></bses:UserId>
+         <bses:InternalRefNo></bses:InternalRefNo>
+         <bses:TransMode></bses:TransMode>
+         <bses:DpTxnMode></bses:DpTxnMode>
+         <bses:StartDate></bses:StartDate>
+         <bses:FrequencyType></bses:FrequencyType>
+         <bses:FrequencyAllowed></bses:FrequencyAllowed>
+         <bses:InstallmentAmount></bses:InstallmentAmount>
+         <bses:NoOfInstallment></bses:NoOfInstallment>
+         <bses:Remarks></bses:Remarks>
+         <bses:FolioNo></bses:FolioNo>
+         <bses:FirstOrderFlag></bses:FirstOrderFlag>
+         <bses:Brokerage></bses:Brokerage>
+         <bses:MandateID></bses:MandateID>
+         <bses:SubberCode></bses:SubberCode>
+         <bses:Euin></bses:Euin>
+         <bses:EuinVal></bses:EuinVal>
+         <bses:DPC></bses:DPC>
+         <bses:XsipRegID></bses:XsipRegID>
+         <bses:IPAdd></bses:IPAdd>
+         <bses:Password></bses:Password>
+         <bses:PassKey></bses:PassKey>
+         <bses:Param1></bses:Param1>
+         <bses:Param2></bses:Param2>
+         <bses:Param3></bses:Param3>
+      </bses:xsipOrderEntryParam>
+   </soap:Body>
+</soap:Envelope>

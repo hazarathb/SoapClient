@@ -1,0 +1,37 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/switchOrderEntryParam</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+     </soap:Header>
+   <soap:Body>
+      <bses:switchOrderEntryParam>
+         <bses:TransCode>NEW</bses:TransCode>
+         <bses:TransNo>1222222222</bses:TransNo>
+         <bses:OrderId></bses:OrderId>
+         <bses:UserId>MANISH1</bses:UserId>
+         <bses:MemberId>PULSLAB1</bses:MemberId>
+         <bses:ClientCode>manish1234</bses:ClientCode>
+         <bses:FromSchemeCd>CPMP-DR-L0</bses:FromSchemeCd>
+         <bses:ToSchemeCd>PSDP-DP</bses:ToSchemeCd>
+         <bses:BuySell>P</bses:BuySell>
+         <bses:BuySellType>FRESH</bses:BuySellType>
+         <bses:DPTxn>P</bses:DPTxn>
+         <bses:OrderVal>100000</bses:OrderVal>
+         <bses:SwitchUnits></bses:SwitchUnits>
+         <bses:AllUnitsFlag>Y</bses:AllUnitsFlag>
+         <bses:FolioNo></bses:FolioNo>
+         <bses:Remarks></bses:Remarks>
+         <bses:KYCStatus>Y</bses:KYCStatus>
+         <bses:SubBrCode></bses:SubBrCode>
+         <bses:EUIN>E084436</bses:EUIN>
+         <bses:EUINVal>Y</bses:EUINVal>
+         <bses:MinRedeem>N</bses:MinRedeem>
+         <bses:IPAdd></bses:IPAdd>
+         <bses:Password></bses:Password>
+         <bses:PassKey>Pulselab</bses:PassKey>
+         <bses:Parma1></bses:Parma1>
+         <bses:Param2></bses:Param2>
+         <bses:Param3></bses:Param3>
+      </bses:switchOrderEntryParam>
+   </soap:Body>
+</soap:Envelope>

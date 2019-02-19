@@ -1,0 +1,40 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/" xmlns:mfor="http://schemas.datacontract.org/2004/07/MFOrderService">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/sipOrderEntry</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+     </soap:Header>
+   <soap:Body>
+      <bses:sipOrderEntry>
+         <bses:data>
+            <mfor:ClientCode>manish123</mfor:ClientCode>
+            <mfor:DPC></mfor:DPC>
+            <mfor:DPTxnMode></mfor:DPTxnMode>
+            <mfor:Euin>E084436</mfor:Euin>
+            <mfor:EuinVal>Y</mfor:EuinVal>
+            <mfor:FirstOrderFlag></mfor:FirstOrderFlag>
+            <mfor:FolioNo></mfor:FolioNo>
+            <mfor:FrequencyAllowed></mfor:FrequencyAllowed>
+            <mfor:FrequencyType></mfor:FrequencyType>
+            <mfor:IPAdd></mfor:IPAdd>
+            <mfor:InstallmentAmount></mfor:InstallmentAmount>
+            <mfor:InternalRefNo></mfor:InternalRefNo>
+            <mfor:MemberCode>Nilesh12</mfor:MemberCode>
+            <mfor:NoOfInstallments></mfor:NoOfInstallments>
+            <mfor:Param1></mfor:Param1>
+            <mfor:Param2></mfor:Param2>
+            <mfor:Param3></mfor:Param3>
+            <mfor:PassKey></mfor:PassKey>
+            <mfor:Password>@123456</mfor:Password>
+            <mfor:RegId></mfor:RegId>
+            <mfor:Remarks></mfor:Remarks>
+            <mfor:SchemeCode>02G</mfor:SchemeCode>
+            <mfor:StartDate></mfor:StartDate>
+            <mfor:SubberCode></mfor:SubberCode>
+            <mfor:TransMode>NEW</mfor:TransMode>
+            <mfor:TransactionCode></mfor:TransactionCode>
+            <mfor:UniqueRefNo></mfor:UniqueRefNo>
+            <mfor:UserID>Nilesh12</mfor:UserID>
+         </bses:data>
+      </bses:sipOrderEntry>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,41 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/" xmlns:mfor="http://schemas.datacontract.org/2004/07/MFOrderService">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/spreadOrderEntry</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+     </soap:Header>
+   <soap:Body>
+      <bses:spreadOrderEntry>
+         <bses:data>
+            <mfor:AllUnitFlag></mfor:AllUnitFlag>
+            <mfor:BuySell></mfor:BuySell>
+            <mfor:BuySellType></mfor:BuySellType>
+            <mfor:ClientCode></mfor:ClientCode>
+            <mfor:DPC></mfor:DPC>
+            <mfor:DPTxn></mfor:DPTxn>
+            <mfor:EUIN></mfor:EUIN>
+            <mfor:EUINVal></mfor:EUINVal>
+            <mfor:FolioNo></mfor:FolioNo>
+            <mfor:IPAdd></mfor:IPAdd>
+            <mfor:KYCStatus></mfor:KYCStatus>
+            <mfor:MemberId></mfor:MemberId>
+            <mfor:MinRedeem></mfor:MinRedeem>
+            <mfor:OrderId></mfor:OrderId>
+            <mfor:OrderVal></mfor:OrderVal>
+            <mfor:Param1></mfor:Param1>
+            <mfor:Param2></mfor:Param2>
+            <mfor:Param3></mfor:Param3>
+            <mfor:PassKey></mfor:PassKey>
+            <mfor:Password></mfor:Password>
+            <mfor:RedeemDate></mfor:RedeemDate>
+            <mfor:RedemptionAmt></mfor:RedemptionAmt>
+            <mfor:RefNo></mfor:RefNo>
+            <mfor:Remarks></mfor:Remarks>
+            <mfor:SchemeCd></mfor:SchemeCd>
+            <mfor:SubBrCode></mfor:SubBrCode>
+            <mfor:TransCode></mfor:TransCode>
+            <mfor:TransNo></mfor:TransNo>
+            <mfor:UserID></mfor:UserID>
+         </bses:data>
+      </bses:spreadOrderEntry>
+   </soap:Body>
+</soap:Envelope>

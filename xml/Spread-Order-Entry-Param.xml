@@ -1,0 +1,39 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/">
+	<soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/spreadOrderEntryParam</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+     </soap:Header>
+   <soap:Body>
+      <bses:spreadOrderEntryParam>
+         <bses:TransactionCode></bses:TransactionCode>
+         <bses:UniqueRefNo></bses:UniqueRefNo>
+         <bses:OrderID></bses:OrderID>
+         <bses:UserID></bses:UserID>
+         <bses:MemberId></bses:MemberId>
+         <bses:ClientCode></bses:ClientCode>
+         <bses:SchemeCode></bses:SchemeCode>
+         <bses:BuySell></bses:BuySell>
+         <bses:BuySellType></bses:BuySellType>
+         <bses:DPTxn></bses:DPTxn>
+         <bses:OrderValue></bses:OrderValue>
+         <bses:RedemptionAmt></bses:RedemptionAmt>
+         <bses:AllUnitFlag></bses:AllUnitFlag>
+         <bses:RedeemDate></bses:RedeemDate>
+         <bses:FolioNo></bses:FolioNo>
+         <bses:Remarks></bses:Remarks>
+         <bses:KYCStatus></bses:KYCStatus>
+         <bses:RefNo></bses:RefNo>
+         <bses:SubBroCode></bses:SubBroCode>
+         <bses:EUIN></bses:EUIN>
+         <bses:EUINVal></bses:EUINVal>
+         <bses:MinRedeem></bses:MinRedeem>
+         <bses:DPC></bses:DPC>
+         <bses:IPAddress></bses:IPAddress>
+         <bses:Password></bses:Password>
+         <bses:PassKey></bses:PassKey>
+         <bses:Param1></bses:Param1>
+         <bses:Param2></bses:Param2>
+         <bses:Param3></bses:Param3>
+      </bses:spreadOrderEntryParam>
+   </soap:Body>
+</soap:Envelope>

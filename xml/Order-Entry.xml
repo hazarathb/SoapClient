@@ -1,0 +1,69 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/" xmlns:mfor="http://schemas.datacontract.org/2004/07/MFOrderService">
+   <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/OrderEntry</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+      </soap:Header>
+   <soap:Body>
+      <bses:OrderEntry>
+       
+         <bses:data>
+          
+            <mfor:AllRedeem>N</mfor:AllRedeem>
+          
+            <mfor:BuySell>P</mfor:BuySell>
+          
+            <mfor:BuySellType>FRESH</mfor:BuySellType>
+          
+            <mfor:ClientCode>manish1234</mfor:ClientCode>
+          
+            <mfor:DPC>N</mfor:DPC>
+          
+            <mfor:DPTxn>P</mfor:DPTxn>
+          
+            <mfor:EUIN>E084436</mfor:EUIN>
+          
+            <mfor:EUINVal>Y</mfor:EUINVal>
+          
+            <mfor:FolioNo></mfor:FolioNo>
+          
+            <mfor:IPAdd></mfor:IPAdd>
+          
+            <mfor:KYCStatus>Y</mfor:KYCStatus>
+          
+            <mfor:MemberId>PULSLAB1</mfor:MemberId>
+          
+            <mfor:MinRedeem>N</mfor:MinRedeem>
+          
+            <mfor:OrderId>20190207</mfor:OrderId>
+          
+            <mfor:OrderVal>10000</mfor:OrderVal>
+          
+            <mfor:Param1></mfor:Param1>
+          
+            <mfor:Param2></mfor:Param2>
+          
+            <mfor:Param3></mfor:Param3>
+          
+            <mfor:PassKey>Pulselab</mfor:PassKey>
+          
+            <mfor:Password>E+EXGZtCuOi3bZFdhINts7W/XHYHmSo4esYz0vlRkdzTwxKQeWorQnXKjbYK9Kq5</mfor:Password>
+          
+            <mfor:Qty>1</mfor:Qty>
+          
+            <mfor:RefNo></mfor:RefNo>
+          
+            <mfor:Remarks></mfor:Remarks>
+          
+            <mfor:SchemeCd>02G</mfor:SchemeCd>
+          
+            <mfor:SubBrCode></mfor:SubBrCode>
+          
+            <mfor:TransCode>NEW</mfor:TransCode>
+          
+            <mfor:TransNo>20190212</mfor:TransNo>
+          
+            <mfor:UserID>MANISH1</mfor:UserID>
+         </bses:data>
+      </bses:OrderEntry>
+   </soap:Body>
+</soap:Envelope>

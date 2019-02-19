@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bses="http://bsestarmf.in/">
+      <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+            <wsa:Action>http://bsestarmf.in/MFOrderEntry/getPassword</wsa:Action>
+            <wsa:To>https://bsestarmfdemo.bseindia.com/MFOrderEntry/MFOrder.svc/Secure</wsa:To>
+      </soap:Header>
+      <soap:Body>
+            <bses:getPassword>
+                  <bses:UserId>MANISH1</bses:UserId>
+                  <bses:Password>@123456</bses:Password>
+                  <bses:PassKey>Pulselab</bses:PassKey>
+            </bses:getPassword>
+      </soap:Body>
+</soap:Envelope>
